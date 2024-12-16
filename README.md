@@ -9,20 +9,12 @@ Este projeto explora a aplicação e comparação entre diferentes arquiteturas 
 ├── enunciado
 │   └── ep4.pdf                # Enunciado do projeto
 ├── notebooks
-│   ├── base
+│   ├── base # arquivos utilizados como inspiração
 │   │   ├── EP4-VAE.html       # Exportação em HTML do notebook VAE
 │   │   └── EP4-VAE.ipynb      # Notebook base para estudo do VAE
 │   ├── data
 │   │   └── FashionMNIST
-│   │       └── raw            # Dados brutos do FashionMNIST
-│   │           ├── t10k-images-idx3-ubyte
-│   │           ├── t10k-images-idx3-ubyte.gz
-│   │           ├── t10k-labels-idx1-ubyte
-│   │           ├── t10k-labels-idx1-ubyte.gz
-│   │           ├── train-images-idx3-ubyte
-│   │           ├── train-images-idx3-ubyte.gz
-│   │           ├── train-labels-idx1-ubyte
-│   │           └── train-labels-idx1-ubyte.gz
+│   │       └── raw            # Dados brutos do FashionMNIST (gerados ao rodar notebook)
 │   └── exploracao.ipynb       # Notebook principal do projeto
 ├── README.md                  # Este arquivo
 └── requirements.txt           # Dependências do projeto
