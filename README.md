@@ -36,10 +36,6 @@ Para rodar o projeto, é necessário instalar as dependências listadas no arqui
 pip install -r requirements.txt
 ```
 
-## Dados
-
-O dataset utilizado é o FashionMNIST, disponível no diretório `notebooks/data/FashionMNIST/raw`. Ele contém os arquivos de treino e teste em formato comprimido e descomprimido.
-
 ## Como Executar
 
 1. Certifique-se de ter instalado as dependências do projeto.
@@ -48,8 +44,4 @@ O dataset utilizado é o FashionMNIST, disponível no diretório `notebooks/data
 
 ## Informações Adicionais
 
-O arquivo `enunciado/ep4.pdf` contém informações detalhadas sobre o objetivo e contexto do projeto. Os notebooks na pasta `notebooks/base` são complementares e podem ser utilizados para estudo específico do modelo VAE.
-
----
-
-Desenvolvido como parte do estudo e comparação de diferentes arquiteturas de autoencoders no contexto de aprendizado não supervisionado.
+O arquivo `enunciado/ep4.pdf` contém informações detalhadas sobre o objetivo e contexto do projeto. Os notebooks na pasta `notebooks/base` são os notebooks utilizados como base para a implementação.
